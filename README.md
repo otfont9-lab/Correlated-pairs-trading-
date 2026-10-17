@@ -1,2 +1,13 @@
 # Correlated-pairs-trading-
-This script in python aims to simulate a trading strategy of two cointegrated pairs.The stock's price of an asset, follows naturally a random walk ,the price fluctuates without any specified trend, hence, it's impossible to forecast future movements . Even though, when it's possible to find two assets which have a certain degree of correlation, the two assets will keep each one following random paths, but its distance will remain stationary. In other words, the movement of one asset will give a hint about the potential movements of the other asset , hence , if one can prove that two assets are cointegrated, a trading strategy can be implemented whenever an outlier difference between two price assets arise , execute a mean-reversion trade: shorting the outperforming asset and going long on the underperforming asset, anticipating that their prices will eventually converge back to their historical equilibrium.
+
+Overview 
+This script in python aims to simulate a trading strategy of two cointegrated pairs.The stock's price of an asset, follows naturally a random walk ,the price fluctuates without any specified trend, hence, it's impossible to forecast future movements . Even though, when it's possible to find two assets which have a certain degree of correlation, the two assets will keep each one following random paths, but its distance will remain stationary. In other words, the movement of one asset will give a hint about the potential movements of the other asset , hence , if one can prove that two assets are cointegrated, a trading strategy can be implemented whenever an outlier difference between two price assets arise , execute a mean-reversion trade: shorting the outperforming asset and going long on the underperforming asset, anticipating that their prices will eventually converge back to their historical equilibrium. 
+
+ Tested Pairs
+The strategy is evaluated and backtested on two classic equity pairs:
+
+Pepsi & Coca-Cola
+
+Visa & MasterCard
+
+💡 Note on Development: This script and its analysis were enhanced with AI assistance during the development and debugging process.
